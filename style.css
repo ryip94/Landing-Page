@@ -1,8 +1,66 @@
-.intro img {
+body {
+display: flex;
+flex-direction: column;
+font-family: Arial, Helvetica, sans-serif;
 
-    width: 300px;
 }
 
+
+.header {
+
+display: flex;
+justify-content: space-between;
+background-color: rgb(33, 41, 54);
+padding: 8px 100px;
+height: 40px;
+align-items: center;
+}
+
+.intro {
+
+    display: flex;
+    background-color: rgb(33, 41, 54);
+    padding: 8px 100px;
+    justify-content: space-between;
+    height: 220px;
+
+}
+
+.logo {
+
+    color: white;
+    font-weight: bold;
+}
+
+.topbar {
+
+    display: flex;
+    gap: 24px;
+    font-size: 12px;
+}
+
+
+
+
+.intro img {
+
+    width: 250px;
+}
+
+.intro-text {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 166.66px;
+
+}
+
+.cooking-text {
+    color: rgb(150, 159, 171);
+    font-size: 14px;
+    
+}
 .mid-pics img {
 
     width: 100px;
@@ -18,10 +76,13 @@ ul {
 
 a {
     text-decoration: none;
-    color: rgb(110, 116, 124) 
+    color: rgb(150, 159, 171) 
 
 }
 
 h1 {
-
+    color: white;
+    font-size: 24px;
+    margin: 0px;
 }
+
