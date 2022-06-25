@@ -86,3 +86,38 @@ h1 {
     margin: 0px;
 }
 
+.sign-up-blue { 
+
+    background-color: rgb(72, 131, 238);
+    color: white;
+    border-radius: 5px;
+    padding: 4px 16px;
+    border-style: none;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-elegant {
+
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+    font-size: 24px;
+
+}
+
+
+.pic-icons{
+
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    gap: 40px;
+}
